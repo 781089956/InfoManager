@@ -1,0 +1,4 @@
+D:/Cfolder/InfoManager/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Cfolder/InfoManager/cmake-build-debug/CMakeFiles/Main.dir
+D:/Cfolder/InfoManager/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Cfolder/InfoManager/cmake-build-debug/CMakeFiles/Test.dir

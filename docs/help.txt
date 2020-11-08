@@ -1,0 +1,16 @@
+#帮助文档
+#
+#######################
+sys:
+打开数据 open <filename>
+保存数据 save <filename>
+退出程序 exit
+query:
+查询 select <*|<condition1> [||& <condition2>]...> [orderi|orderr <fieldname>]
+插入 insert [row] values <value1>,[value2],[value3],...
+删除 delete <condition1> [||& <condition2>]...
+修改 update <K = V>... [where <condition1> [||& <condition2>]...]
+analysis:
+analyse <fieldname>
+
+脚本 script <filename>

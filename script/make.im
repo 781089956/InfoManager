@@ -1,0 +1,9 @@
+#脚本测试
+#打开文件
+open test.csv
+#插入
+insert values 19052132,小红,女,123213,46,83
+insert values 19052134,小李,女,454335,43,65
+insert values 19052136,小龙女,女,875756,98,23
+#保存
+save out.csv

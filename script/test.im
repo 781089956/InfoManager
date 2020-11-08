@@ -1,0 +1,3 @@
+open test.csv
+select ÐÔ±ð = ÄÐ
+script script/nest.im

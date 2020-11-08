@@ -1,0 +1,11 @@
+#可以在此定义字段的数据类型,大小写忽略
+#string 字符串类型
+#int 整性
+#float 浮点型
+
+string
+string
+string
+string
+float
+float

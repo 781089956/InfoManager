@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="InfoManager"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Cfolder/InfoManager/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Cfolder/mingw64/bin/mingw32-make.exe -f &quot;D:/Cfolder/InfoManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Cfolder/mingw64/bin/mingw32-make.exe -f &quot;D:/Cfolder/InfoManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Cfolder/mingw64/bin/mingw32-make.exe -f &quot;D:/Cfolder/InfoManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Cfolder/mingw64/bin/mingw32-make.exe -f &quot;D:/Cfolder/InfoManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Cfolder/InfoManager/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Cfolder/mingw64/bin/mingw32-make.exe -f &quot;D:/Cfolder/InfoManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Cfolder/mingw64/bin/mingw32-make.exe -f &quot;D:/Cfolder/InfoManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Cfolder/mingw64/bin/mingw32-make.exe -f &quot;D:/Cfolder/InfoManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Cfolder/mingw64/bin/mingw32-make.exe -f &quot;D:/Cfolder/InfoManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Main">
+				<Option output="D:/Cfolder/InfoManager/cmake-build-debug/Main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Cfolder/InfoManager/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Cfolder/InfoManager/include"/>
+					<Add directory="D:/Cfolder/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Cfolder/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Cfolder/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Cfolder/mingw64/bin/mingw32-make.exe -f &quot;D:/Cfolder/InfoManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 Main"/>
+					<CompileFile command="D:/Cfolder/mingw64/bin/mingw32-make.exe -f &quot;D:/Cfolder/InfoManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Cfolder/mingw64/bin/mingw32-make.exe -f &quot;D:/Cfolder/InfoManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Cfolder/mingw64/bin/mingw32-make.exe -f &quot;D:/Cfolder/InfoManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Main/fast">
+				<Option output="D:/Cfolder/InfoManager/cmake-build-debug/Main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Cfolder/InfoManager/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Cfolder/InfoManager/include"/>
+					<Add directory="D:/Cfolder/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Cfolder/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Cfolder/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Cfolder/mingw64/bin/mingw32-make.exe -f &quot;D:/Cfolder/InfoManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 Main/fast"/>
+					<CompileFile command="D:/Cfolder/mingw64/bin/mingw32-make.exe -f &quot;D:/Cfolder/InfoManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Cfolder/mingw64/bin/mingw32-make.exe -f &quot;D:/Cfolder/InfoManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Cfolder/mingw64/bin/mingw32-make.exe -f &quot;D:/Cfolder/InfoManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Cfolder/InfoManager/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Cfolder/mingw64/bin/mingw32-make.exe -f &quot;D:/Cfolder/InfoManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Cfolder/mingw64/bin/mingw32-make.exe -f &quot;D:/Cfolder/InfoManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Cfolder/mingw64/bin/mingw32-make.exe -f &quot;D:/Cfolder/InfoManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Cfolder/mingw64/bin/mingw32-make.exe -f &quot;D:/Cfolder/InfoManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test">
+				<Option output="D:/Cfolder/InfoManager/cmake-build-debug/Test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Cfolder/InfoManager/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Cfolder/InfoManager/include"/>
+					<Add directory="D:/Cfolder/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Cfolder/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Cfolder/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Cfolder/mingw64/bin/mingw32-make.exe -f &quot;D:/Cfolder/InfoManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test"/>
+					<CompileFile command="D:/Cfolder/mingw64/bin/mingw32-make.exe -f &quot;D:/Cfolder/InfoManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Cfolder/mingw64/bin/mingw32-make.exe -f &quot;D:/Cfolder/InfoManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Cfolder/mingw64/bin/mingw32-make.exe -f &quot;D:/Cfolder/InfoManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test/fast">
+				<Option output="D:/Cfolder/InfoManager/cmake-build-debug/Test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Cfolder/InfoManager/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Cfolder/InfoManager/include"/>
+					<Add directory="D:/Cfolder/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Cfolder/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Cfolder/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Cfolder/mingw64/bin/mingw32-make.exe -f &quot;D:/Cfolder/InfoManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test/fast"/>
+					<CompileFile command="D:/Cfolder/mingw64/bin/mingw32-make.exe -f &quot;D:/Cfolder/InfoManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Cfolder/mingw64/bin/mingw32-make.exe -f &quot;D:/Cfolder/InfoManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Cfolder/mingw64/bin/mingw32-make.exe -f &quot;D:/Cfolder/InfoManager/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Cfolder/InfoManager/include/sys.h">
+			<Option target="Main"/>
+		</Unit>
+		<Unit filename="D:/Cfolder/InfoManager/src/analysis.c">
+			<Option target="Main"/>
+		</Unit>
+		<Unit filename="D:/Cfolder/InfoManager/src/dataUtil.c">
+			<Option target="Main"/>
+		</Unit>
+		<Unit filename="D:/Cfolder/InfoManager/src/fileHandler.c">
+			<Option target="Main"/>
+		</Unit>
+		<Unit filename="D:/Cfolder/InfoManager/src/linkList.c">
+			<Option target="Main"/>
+		</Unit>
+		<Unit filename="D:/Cfolder/InfoManager/src/main.c">
+			<Option target="Main"/>
+		</Unit>
+		<Unit filename="D:/Cfolder/InfoManager/src/query.c">
+			<Option target="Main"/>
+		</Unit>
+		<Unit filename="D:/Cfolder/InfoManager/src/stack.c">
+			<Option target="Main"/>
+		</Unit>
+		<Unit filename="D:/Cfolder/InfoManager/src/sys.c">
+			<Option target="Main"/>
+		</Unit>
+		<Unit filename="D:/Cfolder/InfoManager/src/util.c">
+			<Option target="Main"/>
+		</Unit>
+		<Unit filename="D:/Cfolder/InfoManager/test.c">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="D:/Cfolder/InfoManager/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
